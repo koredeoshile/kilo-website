@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><contact-Us></contact-Us></title>
+
+        <!-- External Stylesheets -->
+        <link rel="stylesheet" href="styles.css/contact-us-header.css">
+        <link rel="stylesheet" href="styles.css/contact-us-content.css">
+        <link rel="stylesheet" href="styles.css/body.css">
+        <link rel="stylesheet" href="styles.css/footer1.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fpnts.googlepis.com">
+        <link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googlepis.com/css2?family=work+sans:wght@300;400;500;600;700;800;900&display=swap">
+
+        
+
+    </head>
+    <body>
+
+        <!-- Main Background Container -->
+        <div class="bg-container">
+
+            <!-- Header Section -->
+            <header>
+                <div class="logo">
+                    <img src="images/new logo.png" alt="Your Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="landingpage.html">Home</a></li>
+                        <li><a href="ABOUT-US.HTML">About Us</a>
+                            <ul class="dropdown">
+                                <li><a href="ABOUT-US.HTML">About Us</a></li>
+                                <li><a href="work-experience.html">Work Experience</a></li>
+                                <li><a href="Management.html">Management</a></li>
+                                <li><a href="#projects">Our Projects</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="SERVICES.HTML">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="engineering.html">Engineering</a></li>
+                                <li><a href="procurement.html">Procurement</a></li>
+                                <li><a href="installation.html">Installation</a></li>
+                                <li><a href="fabrication-constraction.html">Fabrication and Construction</a></li>
+                                <li><a href="pre-commission-commission.html">Pre-commissioning & Commissioning</a></li>
+                                <li><a href="facility-upgrade.html">Facility Upgrades</a></li>
+                                <li><a href="operation-maintenance.html">Operations and Maintenance</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="technical-partnersip.html">Technical Partnership</a></li>
+                        <li><a href="our-clients.html">Clients</a></li>
+                    </ul>
+                </nav>
+                <button class="contact-button" onclick="window.location.href='contact-Us.html'">Contact Us</button> <!-- Contact Us button links to contact page -->
+            </header>
+            <!-- End of Header -->
+
+            <!-- Contact Us Section -->
+                <section class="contact-us-section">
+                    <h1>Contact Us</h1>
+                    <p>Get in touch with us today to request an inspection of your facilities. <br> You can contact us via any of our contact details or by filling the form below.</p>
+                    <div class="breadcrumb">
+                        <a href="#home" class="home-link">Home</a> <!-- Make "Home" clickable -->
+                        <span class="breadcrumb-arrow">&#8250;</span> 
+                        <span class="current-page">Contact Us</span>
+                    </div>
+                    
+                </section>
+            </div>
+        </div>
+        <!-- End of Background Container -->
+
+        <!-- Main Content Area -->
+        <main>
+            <div class="contact-section">
+                <!-- First Row: Office Information -->
+                <div class="office-info">
+                    <!-- First Column -->
+                    <div class="column">
+                        <h2>Lagos Head Office</h2>
+                        <p>Plot 479A1, Omotunde Akinsola Street, Off Titilayo Adedoyin<br> Street, Omole Phase 1, Ikeja, Lagos State.</p>
+                        <p>Email: Info@Kiloglobalinter.com</p>
+                        <p>Phone: 08038292495, 08168020814</p>
+                    </div>
+            
+                    <!-- Second Column -->
+                    <div class="column">
+                        <h2>USA Office</h2>
+                        <p>24215 Camilla Ridge Way, Katy,<br> Texas 77493</p>
+                        <p>Email: Info@Kiloglobalinter.com</p>
+                        <p>Phone: +12817485695, +12813472872</p>
+                    </div>
+                </div>
+            
+            
+                <!-- Second Row: Service Request Form Platform -->
+                <div class="form-platform">
+                    <h2>Service Request Form</h2>
+                    <form>
+                        <!-- Row 1: Full Name & Company Name -->
+                        <div class="form-row">
+                            <input type="text" id="full-name" name="full-name" placeholder="Your Full Name" required>
+                            <input type="text" id="company-name" name="company-name" placeholder="Company Name" required>
+                        </div>
+                        <!-- Row 2: Services Required & Facility Location -->
+                        <div class="form-row">
+                            <input type="text" id="services-required" name="services-required" placeholder="Services Required" required>
+                            <input type="text" id="facility-location" name="facility-location" placeholder="Facility Location" required>
+                        </div>
+                        <!-- Row 3: Email & Phone -->
+                        <div class="form-row">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                        </div>
+                        <!-- Row 4: Additional Information (full-width) -->
+                        <div class="form-row full-width">
+                            <textarea id="additional-info" name="additional-info" rows="5" placeholder="Additional Information"></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit" class="submit-button">Submit Request</button>
+                    </form>
+                </div>
+                <div class="map-container" style="margin-top: 40px; text-align: center;">
+                    <h2>Our Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1258154448424!2d3.360260675886907!3d6.6312920933630854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9395f4d3a5b7%3A0x550bdb2c42decebd!2sKilo%20Global%20Integrated%20Services%20Limited!5e0!3m2!1sen!2sng!4v1728903790120!5m2!1sen!2sng"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">>
+                    </iframe>
+                </div>
+            </div>
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Footer Section -->
+        <footer>
+
+            <!-- Footer Top Section -->
+            <section class="footer">
+                <div class="footer-content about">
+                    <img src="images/new logo.png" alt="Company Logo">
+                    <p>We are committed to delivering high-quality engineering,<br> procurement, and construction services.</p>
+                </div>
+
+                <div class="footer-content information">
+                    <h4>Company Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Management</a></li>
+                        <li><a href="#">Our Clients</a></li>
+                        <li><a href="#">Work Experience</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-content services">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Procurement</a></li>
+                        <li><a href="#">Installation</a></li>
+                        <li><a href="#">Fabrication and Construction</a></li>
+                        <li><a href="#">Pre-commissioning & Commissioning</a></li>
+                        <li><a href="#">Facility Upgrades</a></li>
+                        <li><a href="#">Operations and Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-content connect">
+                    <h4>Connect With Us</h4>
+                    <form action="#" method="post">
+                        <input type="email" name="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="subscribe-button">Subscribe</button>
+                    </form>
+                    <div class="icons">
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </section>
+            <div class="footer-bottom">
+                <p>&copy;2024 Kilo Global Integrated Services Ltd. All rights reserved. Web Design Company - Dientweb</p>
+            </div>
+            <!-- End of Footer Top Section -->
+
+        </footer>
+        <!-- End of Footer -->
+    </body>
+
+</html>
